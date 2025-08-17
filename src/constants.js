@@ -45,11 +45,11 @@ import davlogo from './assets/education_logo/dav_logo.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/fooddel.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import csprepLogo from './assets/work_logo/carrental.png';
+import movierecLogo from './assets/work_logo/protfolio.png';
+import taskremLogo from './assets/work_logo/ecommerce.png';
+import npmLogo from './assets/work_logo/weather.png';
+import webverLogo from './assets/work_logo/todo.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
@@ -145,86 +145,57 @@ export const SkillsInfo = [
       image: githubdetLogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "Express", "MongoDB"," Stripe ", "API"],
       github: "https://github.com/NishantKSinha/Food-Delievery-App",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      webapp: "",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Car-rental-website",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "Developed a full-stack car rental web application with user authentication, car booking, and availability checking features. Integrated secure APIs, responsive UI, and real-time data updates using React, Node.js, Express, and MongoDB.",
       image: csprepLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      github: "https://github.com/NishantKSinha/Car-rental-website",
+      webapp: "",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Protfolio Website",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "Responsive single page Personal Portfolio website using React.js and added sections like Experience,Projects,About and also connected my social media handles like LinkedIn to connect.",
       image: movierecLogo,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      github: "https://github.com/NishantKSinha/Protfolio",
+      webapp: "",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Weather App",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "Created a weather app using JavaScript and API integration to display real-time weather details for any city.",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      tags: ["JS", "CSS", "HTML", "API"],
+      github: "https://github.com/NishantKSinha/Weather_App",
+      webapp: "https://weather-app-self-five-63.vercel.app/",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Ecommerce Website",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+        "Developed an e-commerce website using React that includes product catalog display, shopping cart functionality, and dynamic state management. Implemented clean navigation for browsing products and a smooth add-to-cart process to simulate a real online shopping experience.",
       image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      tags: ["JavaScript", "React", "HTML", "CSS"],
+      github: "https://github.com/NishantKSinha/Ecommerce-Website",
+      webapp: "https://ecommerce-website-8t7o.vercel.app/",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "ToDo-list-app",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+        "Built a To-Do List app that allows users to add, update, and delete tasks for simple task management.",
       image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/NishantKSinha/todo-list-app",
+      webapp: "https://todo-list-app-gamma-azure.vercel.app",
     },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+    
   ];  
